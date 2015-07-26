@@ -1,4 +1,4 @@
-# PYTHON SCRIPTS FOR DOWNLOADING AND LIVE PLOTTING OF HEXOSKIN DATA #
+# Python Scripts for Hexoskin Data Download and Graphing #
 
 Simple python scripts for getting live data graphs as wells as raw data sets directly
 
