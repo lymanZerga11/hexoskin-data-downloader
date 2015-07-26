@@ -1,4 +1,4 @@
-# README #
+# PYTHON SCRIPTS FOR DOWNLOADING AND LIVE PLOTTING OF HEXOSKIN DATA #
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
