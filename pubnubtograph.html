@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Sample APP</title>
+    <style type="text/css">       
+    body {
+        width: 550px;
+        margin: 20px auto;
+         }
+    {
+        font-family:'Comic Sans MS',sans-serif;
+    }
+    </style>
+    <script type="text/javascript" src="http://pubnub.github.io/eon/lib/eon-chart.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://pubnub.github.io/eon/lib/eon.css" />
+    <script src="http://cdn.pubnub.com/pubnub-3.7.12.min.js"></script>
+</head>
+<body>
+   
+   
+    <div id="body-spline"></div>
+    <script>
+        var pubnub = PUBNUB({
+            publish_key: 'pub-c-cc762884-c27c-42a6-8872-8d3f028a093f',
+            subscribe_key:'sub-c-d15b91e6-23b9-11e5-947a-02ee2ddab7fe'
+        });
+        eon.chart({
+            channel: 'hexoskin1',
+            flow: true,
+            pubnub:pubnub,
+            rate:700,
+            limit:15,
+            history: false,
+            generate: {
+                bindto: '#body-spline',
+                
+                data: {
+                    xs: {'J':'x'},
+                    labels: true
+                },
+                type:'area',
+                axis: {
+                    x: {
+                        type: 'categories',
+                        tick: {
+                            fit: false
+                        }
+                    }
+                }
+            }
+            
+        });
+    </script>
+    
+</body>
+</html>
