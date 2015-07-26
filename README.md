@@ -4,8 +4,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Direct download of Hexoskin Data by simply running the Python script lastmodof5datatypes.py which saves the data into separate .csv files for separate record IDs. Also creates a file lastmod.p that keeps track of record IDs already synced.
-* Direct download of Hexoskin ECG Data by simply running the Python script ecgwithoutlastmod.py which saves the data into separate .csv files for separate record IDs.
+* Direct download of Hexoskin Data by simply running the Python script [lastmodof5datatypes.py] which saves the data into separate .csv files for separate record IDs. Also creates a file lastmod.p that keeps track of record IDs already synced.
+* Direct download of Hexoskin ECG Data by simply running the Python script [ecgwithoutlastmod.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/25e627c7e399592e7afb23ddf4a2fa9f47f7a383/ecgwithoutlastmod.py?at=master) which saves the data into separate .csv files for separate record IDs.
 * View static graphs of your choice of datatype using staticallchoicesgraph.py (requires installation of files in the "Requirements" folder in the repository)
 * View live graph of Heart Rate on an HTML file using pubnubtograph.html and pytopubnub.py script (can be run on Heroku)
 
