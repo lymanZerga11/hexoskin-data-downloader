@@ -1,6 +1,6 @@
 # PYTHON SCRIPTS FOR DOWNLOADING AND LIVE PLOTTING OF HEXOSKIN DATA #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Simple python scripts for getting live data graphs as wells as raw data sets directly
 
 ### What is this repository for? ###
 
@@ -11,20 +11,12 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+* For [staticallchoicesgraph.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/staticallchoicesgraph.py?at=master) installation of the files in the "Requirements" folder in the order specified.
+* Current settings in all scripts are for downloading data for a specific Hexoskin. To change it to your Hexoskin, change the header variable in the beginning of every python script to your Authorization keys or Basic Key
+* Basic key can be obtained from the header of a response obtained from a normal Hexoskin API call 
+* Live graphing on HTML is implemented through Pubnub Live Data Stream API. ( Requires pip install Pubnub before running script )
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* Jacob Sunny (jacobsunny95@gmail.com)
+* Other community
