@@ -4,9 +4,10 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Direct download of Hexoskin Data by simply running the Python script lastmodof5datatypes.py which saves the data into separate .csv files for separate record IDs. Also creates a file lastmod.p that keeps track of record IDs already synced.
+* Direct download of Hexoskin ECG Data by simply running the Python script ecgwithoutlastmod.py which saves the data into separate .csv files for separate record IDs.
+* View static graphs of your choice of datatype using staticallchoicesgraph.py (requires installation of files in the "Requirements" folder in the repository)
+* View live graph of Heart Rate on an HTML file using pubnubtograph.html and pytopubnub.py script (can be run on Heroku)
 
 ### How do I get set up? ###
 
