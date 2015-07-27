@@ -8,7 +8,7 @@ Simple python scripts for getting live data graphs as wells as raw data sets dir
 * Direct download of Hexoskin ECG Data by simply running the Python script [ecgwithoutlastmod.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/25e627c7e399592e7afb23ddf4a2fa9f47f7a383/ecgwithoutlastmod.py?at=master) which saves the data into separate .csv files for separate record IDs.
 * View static graphs of your choice of datatype using [staticallchoicesgraph.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/staticallchoicesgraph.py?at=master) (requires installation of files in the "Requirements" folder in the repository)
 * View live graph of Heart Rate on an HTML file using [pubnubtograph.html](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/pubnubtograph.html?at=master) and [pytopubnub.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/pytopubnub.py?at=master) script (can be run on Heroku)
-
+'367106360273,70,40,4395.679999999999,0,0.01953125'
 ### How do I get set up? ###
 
 * For [staticallchoicesgraph.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/staticallchoicesgraph.py?at=master) installation of the files in the "Requirements" folder in the order specified.
