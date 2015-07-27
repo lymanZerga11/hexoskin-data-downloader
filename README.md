@@ -12,7 +12,7 @@ Simple python scripts for getting live data graphs as wells as raw data sets dir
 ### How do I get set up? ###
 
 * For [staticallchoicesgraph.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/staticallchoicesgraph.py?at=master) installation of the files in the "Requirements" folder in the order specified.
-* Current settings in all scripts are for downloading data for a specific Hexoskin. To change it to your Hexoskin, change the header variable in the beginning of every python script to your Authorization keys or Basic Key
+* IMPORTANT: Current settings in all scripts are for downloading data for a specific Hexoskin. To change it to your Hexoskin, change the header variable in the beginning of every Python script to your [API keys](https://api.hexoskin.com/docs/index.html#api-keys-and-oauth-requests) or Basic Key
 * Basic Key (used in the Python Scripts) can be obtained from the header of a response obtained from a normal Hexoskin API call or can be replaced with the [API Keys](https://api.hexoskin.com/docs/index.html#api-keys-and-oauth-requests)
 * Live graphing on HTML is implemented through [Pubnub Live Data Stream API](http://www.pubnub.com/). ( Requires pip install Pubnub before running Python script )
 
