@@ -20,6 +20,7 @@ Simple python scripts for getting live data graphs as wells as raw data sets dir
         367842875926,1340
 
 * View static graphs of your choice of datatype using [staticallchoicesgraph.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/staticallchoicesgraph.py?at=master) (requires installation of files in the "Requirements" folder in the repository)
+![Alt text](http://ibin.co/2A5XZVcRXgc5 "Sample Graph (Not plotted from live data)")
 
 * View live graph of Heart Rate on an HTML file using [pubnubtograph.html](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/pubnubtograph.html?at=master) and [pytopubnub.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/pytopubnub.py?at=master) script (can be run on Heroku)
 
@@ -31,6 +32,9 @@ Simple python scripts for getting live data graphs as wells as raw data sets dir
 * IMPORTANT: Current settings in all scripts are for downloading data for a specific Hexoskin. To change it to your Hexoskin, change the header variable in the beginning of every Python script to your [API keys](https://api.hexoskin.com/docs/index.html#api-keys-and-oauth-requests) or Basic Key
 * Current TIMESTAMP format is adapted from the original Hexoskin [TIMESTAMP Format](https://api.hexoskin.com/docs/index.html#hexotimestamp)
 * Basic Key (used in the Python Scripts) can be obtained from the header of a response obtained from a normal Hexoskin API call or can be replaced with the [API Keys](https://api.hexoskin.com/docs/index.html#api-keys-and-oauth-requests)
+
+                headers={'Authorization':'Basic Y3Zlbm9idXJpKzJAZ21haWwuY29tOkhleG9za2lu'}
+                
 * Live graphing on HTML is implemented through [Pubnub Live Data Stream API](http://www.pubnub.com/). ( Requires pip install Pubnub before running Python script )
 
 ### Who do I talk to? ###
