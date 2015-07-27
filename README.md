@@ -21,7 +21,7 @@ Simple python scripts for getting live data graphs as wells as raw data sets dir
 
 * View static graphs of your choice of datatype using [staticallchoicesgraph.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/staticallchoicesgraph.py?at=master) (requires installation of files in the "Requirements" folder in the repository)
 
-![Alt text](http://ibin.co/2A5XZVcRXgc5 "Sample Graph-Not plotted from live data")
+![Alt text](http://ibin.co/2A5ZFn1wUa8y "Sample Graph-Not plotted from live data")
 
 * View live graph of Heart Rate on an HTML file using [pubnubtograph.html](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/pubnubtograph.html?at=master) and [pytopubnub.py](https://bitbucket.org/jacob_sunny/hexoskin-data-downloader/src/43fcfb1b15e71fbabb6b15bf423ea12b87b4be98/pytopubnub.py?at=master) script (can be run on Heroku)
 
