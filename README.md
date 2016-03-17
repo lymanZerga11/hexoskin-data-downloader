@@ -39,5 +39,5 @@ Simple python scripts for getting live data graphs as wells as raw data sets dir
 
 ### Who do I talk to? ###
 
-* Jacob Sunny (jacobsunny95@gmail.com)
+* lymanZerga11
 * Other community
